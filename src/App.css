@@ -1,22 +1,17 @@
-.App {
-  text-align: center;
+.days{
+  display:flex;
 }
 
-.App-logo {
-  height: 40vmin;
+.day{
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.person {
+  display:flex;
 }
 
-.App-link {
-  color: #09d3ac;
+.name {
+  width: 200px;
 }
