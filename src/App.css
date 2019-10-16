@@ -1,17 +1,35 @@
-.days{
+* {
+  box-sizing: border-box
+}
+
+.app {
   display:flex;
+  justify-content: center;
+  margin-top: 40px;
 }
 
-.day{
-  border: 1px solid black;
-  width: 20px;
-  height: 20px;
+.table {
+  width: 1200px;
 }
 
-.person {
+.row {
   display:flex;
 }
 
 .name {
-  width: 200px;
+  width:270px;
+  border: 1px solid black;
+}
+
+.days {
+  display:flex;
+}
+
+.day {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  font-weight: bold;
+  display:flex;
+  justify-content: center;
 }

@@ -30,15 +30,21 @@ class App extends React.Component {
 
   render() {
     if(this.state.auth){
-      return <Grafik />
+      return (
+        <div className='app'>
+          <Grafik />
+        </div>
+      )
     }else{
       return (
-        <form onSubmit={this.handleSubmit}>
-          <h1>Dawaj haselo</h1>
-          <input className='password' type='password' name='password' required></input>
-          <input type='submit' value='Enter'></input>
-          <p className='alert'></p>
-        </form> 
+        <div className='app'>
+          <form onSubmit={this.handleSubmit}>
+            <h1>Dawaj haselo</h1>
+            <input className='password' type='password' name='password' required></input>
+            <input type='submit' value='Enter'></input>
+            <p className='alert'></p>
+          </form> 
+        </div>
       )
     }
   }
