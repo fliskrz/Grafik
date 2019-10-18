@@ -10,6 +10,7 @@
 
 .table {
   width: 1200px;
+  position:relative;
 }
 
 .row {
@@ -19,6 +20,8 @@
 .name {
   width:270px;
   border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
 }
 
 .days {
@@ -32,4 +35,24 @@
   font-weight: bold;
   display:flex;
   justify-content: center;
+}
+
+.big{
+  width:50px;
+  height: 50px;
+  font-size:23px;
+  background-color: white;
+}
+
+.edit{
+  position:absolute;
+  left:calc(50% - 775px);
+  top:30%;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.weekend {
+  background-color: lightsalmon;
 }
